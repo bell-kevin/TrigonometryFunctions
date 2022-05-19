@@ -5,6 +5,8 @@
  */
 package trigonometryfunctions;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 4800590195
@@ -16,6 +18,11 @@ public class TrigonometryFunctions {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.print("Math Trigonometric Functions by Kevin Bell \n");
+        Scanner computerKeyboardInput = new Scanner(System.in);
+        System.out.print("Please enter an angle in degrees: ");
+        double angleInDegrees;
+        angleInDegrees = computerKeyboardInput.nextDouble();
+        System.out.println(angleInDegrees);
     }
-    
 }
