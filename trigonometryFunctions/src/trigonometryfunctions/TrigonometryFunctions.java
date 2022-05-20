@@ -27,8 +27,8 @@ public class TrigonometryFunctions {
         sine = Math.sin(angleInRadians);
         cosine = Math.cos(angleInRadians);
         tangent = Math.tan(angleInRadians);
-        System.out.println(sine);
-        System.out.println(cosine);
-        System.out.println(tangent);
+        System.out.printf("Sine: %,.4f\n", sine);
+        System.out.printf("Cosine: %,.4f\n", cosine);
+        System.out.printf("Tangent: %,.4f\n", tangent);
     }
 }
