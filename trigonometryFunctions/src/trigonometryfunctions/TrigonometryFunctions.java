@@ -8,8 +8,9 @@ public class TrigonometryFunctions {
         System.out.print("Math Trigonometric Functions by Kevin Bell \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
         System.out.print("Please enter an angle in degrees: ");
-        double angleInDegrees, angleInRadians, sine, cosine, tangent;
-        angleInDegrees = computerKeyboardInput.nextDouble();
+        double angleInDegrees, angleInRadians = 0, sine, cosine, tangent;
+        String angleInDegreesString = computerKeyboardInput.next();
+        angleInDegrees = Double.parseDouble(angleInDegreesString);
         angleInRadians = Math.toRadians(angleInDegrees);
         sine = Math.sin(angleInRadians);
         cosine = Math.cos(angleInRadians);
