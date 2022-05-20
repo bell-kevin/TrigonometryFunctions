@@ -21,8 +21,14 @@ public class TrigonometryFunctions {
         System.out.print("Math Trigonometric Functions by Kevin Bell \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
         System.out.print("Please enter an angle in degrees: ");
-        double angleInDegrees;
+        double angleInDegrees, angleInRadians, sine, cosine, tangent;
         angleInDegrees = computerKeyboardInput.nextDouble();
-        System.out.println(angleInDegrees);
+        angleInRadians = Math.toRadians(angleInDegrees);
+        sine = Math.sin(angleInRadians);
+        cosine = Math.cos(angleInRadians);
+        tangent = Math.tan(angleInRadians);
+        System.out.println(sine);
+        System.out.println(cosine);
+        System.out.println(tangent);
     }
 }
